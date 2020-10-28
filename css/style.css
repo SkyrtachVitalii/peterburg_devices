@@ -49,9 +49,34 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
     color: white;
 }
 
-    header > a{
+    header a:link{
         color: white;
+        text-decoration: none;
     }
+
+    header a:visited {
+        color: pink;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      
+      header a:hover {
+        color: red;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+      
+      header a:active {
+        color: yellow;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+
+
+
+
+
+
 
   .header-logo{
     width: 20%;
