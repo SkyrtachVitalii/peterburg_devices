@@ -1,0 +1,75 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+  }
+
+  .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  @media (min-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .container {
+      max-width: 960px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1140px;
+    }
+  }
+
+  header{
+    background: url(../images/background.jpg), #C4C4C4;
+    max-width: 1920px;
+    height: 800px;
+    left: 0px;
+    top: 0px;
+    color: white;
+}
+
+    header > a{
+        color: white;
+    }
+
+  .header-logo{
+    width: 20%;
+    padding-left: 25px;
+}
+
+  .top-menu{
+      width: 75%;
+  }
+
+
+
+  .header-logo_nav{
+      display: inline-block;
+  }
+
+  .top-menu-style{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
