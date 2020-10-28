@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+body{
+  margin: 0;
+}
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
     display: block;
   }
@@ -72,12 +75,6 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
         text-decoration: underline;
       }
 
-
-
-
-
-
-
   .header-logo{
     width: 20%;
     padding-left: 25px;
@@ -85,16 +82,24 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
   .top-menu{
       width: 75%;
+      padding-left: 10%;
   }
-
-
 
   .header-logo_nav{
       display: inline-block;
   }
 
-  .top-menu-style{
+  .top-menu-nav{
+      width: 40%;
+  }
+
+  .top-menu-nav-style{
+    text-align: center;
     list-style: none;
     display: flex;
     justify-content: space-around;
+  }
+
+  section{
+    margin: 0 auto;
   }
