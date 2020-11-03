@@ -2,6 +2,8 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  font-size: 18px;
+  font-family: 'Oswald', sans-serif;
 }
 
 body{
@@ -11,7 +13,34 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
     display: block;
   }
 
-  .container {
+h2, h3, h4{
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+h1{
+  font-size: 48px;
+  line-height: 71px;
+  letter-spacing: 0.01em;
+}
+
+h2{
+  font-size: 30px;
+  line-height: 44px;
+  }
+
+h3{
+  font-size: 24px;
+  line-height: 36px;
+  color: #005BC1;
+}
+
+h4{
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.container {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
@@ -100,6 +129,34 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
     justify-content: space-around;
   }
 
+  .text-uppercase{
+    text-transform: uppercase;
+  }
+
   section{
     margin: 0 auto;
-  }
+}
+
+.devices-rent-devise-info_specification > p{
+  font-size: 16px;
+  line-height: 24px;
+}
+
+  .production-devices-info a{
+    color: white;
+}
+
+.p-title{
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #343434;
+}
+
+  footer{
+    background: #005BC1;
+    color: white;
+}
+
+  .footer-format > a{
+    color: white;
+}
