@@ -16,6 +16,8 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 h2, h3, h4{
   text-transform: uppercase;
   letter-spacing: 0.05em;
+  margin: 0;
+  padding: 0;
 }
 
 h1{
@@ -38,6 +40,11 @@ h3{
 h4{
   font-size: 18px;
   line-height: 27px;
+}
+
+p{
+  margin: 0;
+  padding: 0;
 }
 
 .container {
@@ -137,13 +144,51 @@ h4{
     margin: 0 auto;
 }
 
+.projects-slides{
+  display: inline-block;
+}
+
+.projects-slides_module{
+  width: 540px;
+  height: 400px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), #C4C4C4;
+  display: inline-block;
+  position: relative;
+}
+
+.projects-slides_info{
+  position: absolute;
+  right: 35px;
+  bottom: 35px;
+  width: 250px;
+  height: 110px;
+  background: #FFFFFF;
+  padding: 20px;
+}
+
+.production-devices-module{
+  display: flex;
+}
+
+.production-devices-module_info{
+  width: 350px;
+  height: 300px;
+}
+
+.production-devices-info_button{
+  display: inline-block;
+  color: white;
+  width: 265px;
+  height: 86px;
+  padding: 15px 21px;
+  background: #005BC1;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 .devices-rent-devise-info_specification > p{
   font-size: 16px;
   line-height: 24px;
-}
-
-  .production-devices-info a{
-    color: white;
 }
 
 .p-title{
